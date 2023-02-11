@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/dist/output.css" rel="stylesheet">
+<title>ProfitKit_Test-task_1</title>
+</head>
+<body>
+<div class="pt-20">
+<div class="flex flex-col md:flex-row md:space-x-6 md:items-center items-start mb-11 mx-20">
+  <p class="text-2xl lg:text-4xl font-normal font-bold">ПОПУЛЯРНЫЕ ТОВАРЫ</p>
+  <p class="text-gray-400 lg:text-lg pt-2.5 text-lg pb-0.5 border-b-4 border-dotted">Недавно купили</p>
+  <p class="text-gray-400 lg:text-lg pt-2.5 text-lg pb-0.5 border-b-4 border-dotted">Вас может заинтересовать</p>
+</div>
+
+<div class="flex">
+  <div class="my-auto mx-5 rounded border py-3 px-4">
+    <svg width="12" height="21" viewBox="0 0 12 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M11 1L2 10.5L11 20" stroke="black" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+  </div>
+
+  <div class="flex flex-1 space-x-3">
+    <div class="rounded border w-full flex-col">
+      <div class="relative">
+        <div class="flex space-x-1 absolute items-center justify-center bottom-2 w-full">
+          <div class="w-5 h-1 bg-orange-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+        </div>
+
+        <img src="https://www.neolabllc.ru/sites/default/files/styles/tovar_list/public/default_images/no_f.jpg" class="w-full aspect-square object-cover object-center">
+
+        <svg width="34" height="34" class="absolute right-6 top-6 bg-white rounded-full" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="34" height="34" rx="17" fill="white"/>
+          <path d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z" stroke="black" stroke-width="2"/>
+        </svg>
+        <svg width="34" height="34" class="absolute right-6 top-16 bg-white rounded-full" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="34" height="34" rx="17" fill="white"/>
+          <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+          <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5"/>
+          <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z" stroke="black" stroke-width="1.5"/>
+          <path d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z" stroke="black" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <div class="text-center flex flex-col flex-1">
+        <p class="text-sm font-normal leading-5 pt-2.5 pb-1 mx-3">Тарелка керамическая ручной работы <br>  ⌀ 12</p>
+        <div class="pb-2.5">
+          <span class="font-bold text-xl leading-6">600 ₽</span>
+          <span class="text-gray-400 pl-2.5 line-through">800 ₽</span>
+        </div>
+        <div class="flex mb-6 mx-3 mt-auto">
+          <div class="rounded border px-2.5 pt-1 flex text-xl">
+            <p class="text-gray-400">-</p>
+            <p class="px-3">1</p>
+            <p class="text-gray-400">+</p>
+          </div>
+          <div class="ml-2.5 flex justify-center items-center bg-amber-300 px-2 py-2 rounded font-medium w-full">
+            <svg fill="none" class="w-5 h-5 mt-0.5" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+            </svg>
+            <span class="pl-2.5">В корзину</span>
+          </div>
+        </div>   
+      </div>
+    </div>
+    <div class="rounded border w-full hidden md:flex flex flex-col">
+      <div class="relative">
+        <div class="flex space-x-1 absolute items-center justify-center bottom-2 w-full">
+          <div class="w-5 h-1 bg-orange-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+        </div>
+
+        <img src="https://i.pinimg.com/564x/c8/7c/53/c87c5342e43db54d483d507b7acda712.jpg" class="w-full aspect-square object-contain object-center">
+
+        <svg width="34" height="34" class="absolute right-6 top-6 bg-white rounded-full" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="34" height="34" rx="17" fill="white"/>
+          <path d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z" stroke="black" stroke-width="2"/>
+        </svg>
+        <svg width="34" height="34" class="absolute right-6 top-16 bg-white rounded-full" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="34" height="34" rx="17" fill="white"/>
+          <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+          <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5"/>
+          <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z" stroke="black" stroke-width="1.5"/>
+          <path d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z" stroke="black" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <div class="text-center flex flex-col flex-1">
+        <p class="text-sm font-normal leading-5 pt-2.5 pb-1 mx-3">Кашпо для цветов керамическое <br> СИМПЛГРЕЙ</p>
+
+        <p class="font-bold text-xl leading-6 pb-2.5">450 ₽</p>
+
+        <div class="flex mx-3 mb-6 mt-auto">
+          <div class="rounded border px-2.5 pt-1 flex text-xl">
+            <p class="text-gray-400">-</p>
+            <p class="px-5">1</p>
+            <p class="text-gray-400">+</p>
+          </div>
+          <div class="ml-2.5 flex justify-center items-center bg-amber-300 px-2 py-2 rounded font-medium w-full">
+            <svg fill="none" class="w-5 h-5 mt-0.5" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+            </svg>
+            <span class="pl-2.5">В корзину</span>
+          </div>
+        </div>   
+      </div>
+    </div>
+    <div class="rounded border w-full hidden xl:flex flex flex-col">
+      <div class="relative">
+        <div class="flex space-x-1 absolute items-center justify-center bottom-2 w-full">
+          <div class="w-5 h-1 bg-orange-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+        </div>
+
+        <img src="https://ir.ozone.ru/s3/multimedia-9/wc1000/6043656489.jpg" class="w-full aspect-square object-contain object-center">
+
+        <div class="absolute left-5 top-5">
+          <svg width="48" height="50" viewBox="0 0 48 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.8214 0.859771C23.5236 0.347495 24.4764 0.347495 25.1786 0.859771L30.0382 4.4046C30.3815 4.65504 30.7957 4.78961 31.2207 4.7888L37.2357 4.77735C38.105 4.7757 38.8758 5.33571 39.1428 6.16294L40.9907 11.8871C41.1212 12.2916 41.3772 12.6439 41.7215 12.893L46.5945 16.4193C47.2987 16.9289 47.5931 17.835 47.3229 18.6612L45.4533 24.3783C45.3212 24.7823 45.3212 25.2177 45.4533 25.6217L47.3229 31.3388C47.5931 32.165 47.2987 33.0711 46.5945 33.5807L41.7215 37.107C41.3772 37.3561 41.1212 37.7085 40.9907 38.1129L39.1428 43.8371C38.8758 44.6643 38.105 45.2243 37.2357 45.2226L31.2207 45.2112C30.7957 45.2104 30.3815 45.345 30.0382 45.5954L25.1786 49.1402C24.4764 49.6525 23.5236 49.6525 22.8214 49.1402L17.9618 45.5954C17.6185 45.345 17.2043 45.2104 16.7793 45.2112L10.7643 45.2226C9.89502 45.2243 9.12422 44.6643 8.85718 43.8371L7.00932 38.1129C6.87877 37.7085 6.62279 37.3561 6.27852 37.107L1.4055 33.5807C0.701283 33.0711 0.406866 32.165 0.677056 31.3388L2.5467 25.6217C2.67879 25.2177 2.67879 24.7823 2.5467 24.3783L0.677056 18.6612C0.406866 17.835 0.701284 16.9289 1.4055 16.4193L6.27852 12.893C6.62279 12.6439 6.87877 12.2916 7.00932 11.8871L8.85718 6.16294C9.12422 5.33571 9.89502 4.7757 10.7643 4.77735L16.7793 4.7888C17.2043 4.78961 17.6185 4.65504 17.9618 4.4046L22.8214 0.859771Z" fill="#DB3737"/>
+          </svg>
+          <p class="absolute left-2.5 top-3 text-white">ХИТ</p>
+        </div>
+
+        <svg width="34" height="34" class="absolute right-6 top-6 bg-white rounded-full" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="34" height="34" rx="17" fill="white"/>
+          <path d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z" stroke="black" stroke-width="2"/>
+        </svg>
+        <svg width="34" height="34" class="absolute right-6 top-16 bg-white rounded-full" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="34" height="34" rx="17" fill="white"/>
+          <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+          <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5"/>
+          <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z" stroke="black" stroke-width="1.5"/>
+          <path d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z" stroke="black" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <div class="text-center flex flex-col flex-1">
+        <p class="text-sm font-normal leading-5 pt-2.5 mx-3 pb-1">Умные часы SMARTWATCH XM <br> 109 черный</p>
+
+        <p class="font-bold text-xl leading-6 pb-2.5">12 999 ₽</p>
+
+        <div class="flex mx-6 mb-6 mt-auto">
+          <div class="rounded border px-3.5 pt-1 flex text-xl">
+            <p class="text-gray-400">-</p>
+            <p class="px-5">1</p>
+            <p class="text-gray-400">+</p>
+          </div>
+          <div class="ml-2.5 flex justify-center items-center bg-amber-300 px-8 py-2 rounded font-medium w-full">
+            <svg fill="none" class="w-5 h-5 mt-0.5" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+            </svg>
+            <span class="pl-2.5">В корзину</span>
+          </div>
+        </div>   
+      </div>
+    </div>
+    <div class="rounded border w-full hidden 2xl:flex flex flex-col">
+      <div class="relative">
+        <div class="flex space-x-1 absolute items-center justify-center bottom-2 w-full">
+          <div class="w-5 h-1 bg-orange-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+          <div class="w-5 h-1 bg-gray-400 rounded-sm"></div>
+        </div>
+
+        <img src="https://g0.sunlight.net/media/products/4fd5303b-3b03-11ed-83df-0050568ccb93.jpg" class="w-full aspect-square object-contain object-center">
+
+        <div class="absolute left-3.5 top-5">
+          <svg width="48" height="50" viewBox="0 0 48 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.8214 0.859771C23.5236 0.347495 24.4764 0.347495 25.1786 0.859771L30.0382 4.4046C30.3815 4.65504 30.7957 4.78961 31.2207 4.7888L37.2357 4.77735C38.105 4.7757 38.8758 5.33571 39.1428 6.16294L40.9907 11.8871C41.1212 12.2916 41.3772 12.6439 41.7215 12.893L46.5945 16.4193C47.2987 16.9289 47.5931 17.835 47.3229 18.6612L45.4533 24.3783C45.3212 24.7823 45.3212 25.2177 45.4533 25.6217L47.3229 31.3388C47.5931 32.165 47.2987 33.0711 46.5945 33.5807L41.7215 37.107C41.3772 37.3561 41.1212 37.7085 40.9907 38.1129L39.1428 43.8371C38.8758 44.6643 38.105 45.2243 37.2357 45.2226L31.2207 45.2112C30.7957 45.2104 30.3815 45.345 30.0382 45.5954L25.1786 49.1402C24.4764 49.6525 23.5236 49.6525 22.8214 49.1402L17.9618 45.5954C17.6185 45.345 17.2043 45.2104 16.7793 45.2112L10.7643 45.2226C9.89502 45.2243 9.12422 44.6643 8.85718 43.8371L7.00932 38.1129C6.87877 37.7085 6.62279 37.3561 6.27852 37.107L1.4055 33.5807C0.701283 33.0711 0.406866 32.165 0.677056 31.3388L2.5467 25.6217C2.67879 25.2177 2.67879 24.7823 2.5467 24.3783L0.677056 18.6612C0.406866 17.835 0.701284 16.9289 1.4055 16.4193L6.27852 12.893C6.62279 12.6439 6.87877 12.2916 7.00932 11.8871L8.85718 6.16294C9.12422 5.33571 9.89502 4.7757 10.7643 4.77735L16.7793 4.7888C17.2043 4.78961 17.6185 4.65504 17.9618 4.4046L22.8214 0.859771Z" fill="#5697D3"/>
+          </svg>
+          <p class="absolute left-1.5 top-3 text-white">NEW</p>
+        </div>
+
+        <svg width="34" height="34" class="absolute right-6 top-6 bg-white rounded-full" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="34" height="34" rx="17" fill="white"/>
+          <path d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z" stroke="black" stroke-width="2"/>
+        </svg>
+        <svg width="34" height="34" class="absolute right-6 top-16 bg-white rounded-full" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="34" height="34" rx="17" fill="white"/>
+          <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+          <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5"/>
+          <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z" stroke="black" stroke-width="1.5"/>
+          <path d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z" stroke="black" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <div class="text-center flex flex-col flex-1">
+        <p class="text-sm font-normal leading-5 mx-3 pt-2.5 pb-1">Золотое кольцо МАЛИКА с аметистом и <br> фианитами</p>
+
+        <p class="font-bold text-xl leading-6 pb-2.5">15 700 ₽</p>
+
+        <div class="flex mx-6 mb-6 mt-auto">
+          <div class="rounded border px-3.5 pt-1 flex text-xl">
+            <p class="text-gray-400">-</p>
+            <p class="px-5">1</p>
+            <p class="text-gray-400">+</p>
+          </div>
+          <div class="ml-2.5 flex justify-center items-center bg-amber-300 px-8 py-2 rounded font-medium w-full">
+            <svg fill="none" class="w-5 h-5 mt-0.5" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+            </svg>
+            <span class="pl-2.5">В корзину</span>
+          </div>
+        </div>   
+      </div>
+    </div>
+  </div>
+
+  <div class="my-auto mx-5 rounded border py-3 px-4">
+    <svg width="12" height="21" viewBox="0 0 12 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1 1L10 10.5L1 20" stroke="black" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+
+  </div>
+</div>
+</div>
+</body>
+</html>
